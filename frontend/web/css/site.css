@@ -1,0 +1,126 @@
+/* Umumiy sahifa stillari */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+header .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+}
+
+header .navbar a:hover {
+    color: #1abc9c;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+/* Kafedralar bo'limi */
+.section-title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+    color: #1abc9c;
+    border-bottom: 2px solid #1abc9c;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.kafedralar, .talabalar {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.kafedralar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.kafedralar li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.kafedralar li strong {
+    color: #2c3e50;
+}
+
+/* Talabalar uchun jadval */
+.talabalar table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.talabalar th, .talabalar td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.talabalar th {
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+.talabalar tr:hover {
+    background-color: #f1f1f1;
+    transition: background 0.3s ease;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsiv dizayn */
+@media (max-width: 768px) {
+    header .navbar {
+        text-align: center;
+    }
+
+    .kafedralar, .talabalar {
+        padding: 10px;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+}

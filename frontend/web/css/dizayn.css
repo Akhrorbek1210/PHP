@@ -1,0 +1,115 @@
+/* Umumiy sahifa uslublari */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigatsiya paneli */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007bff !important;
+}
+
+/* Header qismi */
+.header-bg {
+    background: linear-gradient(to bottom, #007bff, #0056b3);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.header-bg h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.header-bg p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Kafedralar va Talabalar uchun */
+.section {
+    padding: 40px 0;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.list-group-item {
+    border: none;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Yangiliklar carousel */
+.carousel-inner img {
+    border-radius: 10px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.carousel-caption h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #007bff;
+    border-radius: 50%;
+}
+
+/* Tugmalar */
+.btn-outline-secondary {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Kichik ekranlar uchun moslashtirish */
+@media (max-width: 768px) {
+    .header-bg h1 {
+        font-size: 2.5rem;
+    }
+    .carousel-inner img {
+        height: 300px;
+    }
+}
